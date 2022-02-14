@@ -1,0 +1,201 @@
+.CreateUserModalBackground {
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+
+    justify-content: center;
+    align-items: center;
+
+    animation:fadein .5s;
+}
+
+.ModalContainer {
+    display: flex;
+    min-width: 40%;
+    min-height: 40%;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+
+    border-radius: 10px;
+
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-left: ; */
+    margin: 10px;
+    /* margin-bottom: ; */
+    padding: 10px;
+}
+
+.ModalInput {
+    margin: 4px;
+    margin-left: auto;
+
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid;
+
+    border-color: rgb(129, 129, 129);
+}
+
+.InputInvalid {
+    margin: 4px;
+    margin-left: auto;
+
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid;
+
+    border-color: rgb(219, 18, 18);
+}
+
+.InputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    /* background-color: red; */
+}
+
+.FirstNameContainer {
+    display: flex;
+    padding: 4px;
+    display: flex;
+    /* background-color: rgb(148, 110, 110); */
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstNameInput {
+    margin: 4px;
+    margin-left: 12px;
+
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid;
+
+    border-color: rgb(129, 129, 129);
+}
+
+.LastNameContainer {
+    padding: 4px;
+    display: flex;
+    /* background-color: rgb(148, 110, 110); */
+}
+
+.LastNameInput {
+    margin: 4px;
+    margin-left: 12px;
+
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid;
+
+    border-color: rgb(129, 129, 129);
+}
+
+.EmailAddressContainer {
+    padding: 4px;
+    display: flex;
+    /* background-color: rgb(148, 110, 110); */
+}
+
+.EmailAddressInput {
+    margin: 4px;
+    margin-left: 12px;
+
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid;
+
+    border-color: rgb(129, 129, 129);
+}
+
+.PhoneNumberContainer {
+    padding: 4px;
+    display: flex;
+    /* background-color: rgb(148, 110, 110); */
+}
+
+.InputDescription {
+    /* background-color: red; */
+    color: rgb(82, 82, 82);
+    padding-right: 4px;
+    padding-left: 8px;
+    margin-right: 10px;
+}
+
+.ButtonsContainer {
+    margin-top: 8px;
+    display: flex;
+    align-self: center;
+}
+
+.CloseButton {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid rgb(116, 116, 116);
+    padding: 6px 12px;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+
+    color: #fff;
+    background-color: #585858;
+    border-color: #4b4b4b;
+}
+
+.CloseButton:hover {
+    background-color: #4b4b4b;
+}
+
+.CloseButton:active {
+    background-color: #3d3d3d;
+}
+
+.DoneButton {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid rgb(116, 116, 116);
+    padding: 6px 12px;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+
+    color: #fff;
+    background-color: #55dd67;
+    border-color: #5fcc65;
+}
+
+.DoneButton:hover {
+    background-color: #45b454;
+}
+
+.DoneButton:active {
+    background-color: #3ea14b;
+}
+
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}

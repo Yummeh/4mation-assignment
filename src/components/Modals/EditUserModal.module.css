@@ -1,0 +1,18 @@
+.CreateUserModalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5
+}
+
+.ModalContainer {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(190, 158, 158);
+    z-index: 10;
+
+    border-radius: 10px;
+}

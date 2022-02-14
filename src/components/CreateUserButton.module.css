@@ -1,0 +1,26 @@
+.ButtonContainer {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid rgb(116, 116, 116);
+    padding: 15px 30px;
+    margin: 50px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.ButtonContainer:hover {
+    background-color: #cccccc;
+}
+
+.ButtonContainer:active {
+    background-color: #acacac;
+}
